@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="880" height="200" role="img" aria-label="Colophon — Set in TypeScript and Python. Pair-programs with Claude. Writes more tests than features.">
+  <!-- Cream background -->
+  <rect x="0" y="0" width="880" height="200" fill="#fdf6ee"/>
+
+  <!-- Top hairline -->
+  <rect x="0" y="0" width="880" height="1" fill="#e8c5d8"/>
+  <!-- Bottom hairline -->
+  <rect x="0" y="199" width="880" height="1" fill="#e8c5d8"/>
+
+  <!-- Section label -->
+  <text x="56" y="42" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#b14a78" font-weight="700">COLOPHON</text>
+
+  <!-- Prose (italic Georgia) — wrapped manually to fit 768px width at 16px -->
+  <text x="56" y="80" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#2a2233">Set in <tspan font-weight="700" font-style="normal" fill="#1c1620">TypeScript</tspan> and <tspan font-weight="700" font-style="normal" fill="#1c1620">Python</tspan>, with passages in <tspan font-weight="700" font-style="normal" fill="#1c1620">JavaScript</tspan>. Ships as <tspan font-weight="700" font-style="normal" fill="#1c1620">Chrome extensions</tspan>,</text>
+  <text x="56" y="106" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#2a2233">persists in <tspan font-weight="700" font-style="normal" fill="#1c1620">PostgreSQL</tspan>. Specializes in <tspan font-weight="700" font-style="normal" fill="#1c1620">software testing</tspan> and <tspan font-weight="700" font-style="normal" fill="#1c1620">security evaluation</tspan>.</text>
+  <text x="56" y="132" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#2a2233">Pair-programs with <tspan font-weight="700" font-style="normal" fill="#1c1620">Claude</tspan>. Writes more tests than features.</text>
+
+  <!-- Dashed bottom hairline before badges (visual indicator that badges follow in markdown) -->
+  <line x1="56" y1="170" x2="824" y2="170" stroke="#e8c5d8" stroke-width="1" stroke-dasharray="3 4"/>
+</svg>

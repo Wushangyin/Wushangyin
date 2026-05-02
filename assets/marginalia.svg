@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 100" width="880" height="100" role="img" aria-label="2 live projects, 1.2k commits per year, 23 day streak, infinite coffee">
+  <rect x="0" y="0" width="880" height="100" fill="#ffffff"/>
+
+  <!-- Bottom hairline -->
+  <rect x="0" y="99" width="880" height="1" fill="#e8c5d8"/>
+
+  <!-- 4 columns, equal width 220 -->
+  <!-- col 1 -->
+  <rect x="56" y="28" width="2" height="44" fill="#fbb1d4"/>
+  <text x="68" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1c1620" letter-spacing="-0.5">2</text>
+  <text x="68" y="80" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.5" fill="#8a7a9d" font-weight="600">LIVE PROJECTS</text>
+
+  <!-- col 2 -->
+  <rect x="276" y="28" width="2" height="44" fill="#fbb1d4"/>
+  <text x="288" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1c1620" letter-spacing="-0.5">1.2k</text>
+  <text x="288" y="80" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.5" fill="#8a7a9d" font-weight="600">COMMITS / YEAR</text>
+
+  <!-- col 3 -->
+  <rect x="496" y="28" width="2" height="44" fill="#fbb1d4"/>
+  <text x="508" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1c1620" letter-spacing="-0.5">23</text>
+  <text x="508" y="80" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.5" fill="#8a7a9d" font-weight="600">DAY STREAK</text>
+
+  <!-- col 4 -->
+  <rect x="716" y="28" width="2" height="44" fill="#fbb1d4"/>
+  <text x="728" y="58" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1c1620" letter-spacing="-0.5">∞</text>
+  <text x="728" y="80" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1.5" fill="#8a7a9d" font-weight="600">COFFEE</text>
+</svg>

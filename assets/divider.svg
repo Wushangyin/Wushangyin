@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 40" width="880" height="40" role="img" aria-label="section divider">
+  <!-- Hairline rule -->
+  <line x1="40" y1="20" x2="380" y2="20" stroke="#e8c5d8" stroke-width="1"/>
+  <line x1="500" y1="20" x2="840" y2="20" stroke="#e8c5d8" stroke-width="1"/>
+
+  <!-- Center ornament -->
+  <text x="440" y="26" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" fill="#b14a78" letter-spacing="6">· · ·</text>
+</svg>

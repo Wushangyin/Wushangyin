@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" width="880" height="420" role="img" aria-label="Shangyin Wu — Software Engineer focused on AI-powered software testing, automation, and security evaluation.">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf6ee"/>
+      <stop offset="100%" stop-color="#faeae0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Masthead background (white) -->
+  <rect x="0" y="0" width="880" height="58" fill="#ffffff"/>
+  <!-- Hero background -->
+  <rect x="0" y="58" width="880" height="362" fill="url(#heroBg)"/>
+
+  <!-- Top ink rule -->
+  <rect x="0" y="0" width="880" height="2" fill="#1c1620"/>
+  <!-- Bottom ink rule of masthead -->
+  <rect x="0" y="56" width="880" height="2" fill="#1c1620"/>
+  <!-- Hairline below masthead inside hero -->
+  <rect x="0" y="58" width="880" height="1" fill="#e8c5d8"/>
+
+  <!-- ====== MASTHEAD ====== -->
+  <text x="36" y="36" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#b14a78" font-weight="700">NO. 047 · MAY 2026</text>
+
+  <text x="440" y="40" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="24" fill="#1c1620">Shangyin Wu</text>
+
+  <text x="844" y="36" text-anchor="end" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" letter-spacing="3" fill="#1c1620">GITHUB.COM/WUSHANGYIN</text>
+
+  <!-- ====== HERO ====== -->
+  <!-- Kicker -->
+  <text x="56" y="118" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.5" fill="#b14a78" font-weight="700">CURRENTLY — SOFTWARE ENGINEER</text>
+
+  <!-- Headline (3 lines, italic + rose accent inline) -->
+  <text x="56" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#1c1620" letter-spacing="-0.6">Teaching language models to <tspan font-style="italic" fill="#b14a78">test software,</tspan></text>
+  <text x="56" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#1c1620" letter-spacing="-0.6">and figuring out where they break.</text>
+
+  <!-- Deck -->
+  <text x="56" y="278" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#4a3a5a">AI-powered testing, automation, and security evaluation —</text>
+  <text x="56" y="300" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#4a3a5a">built mostly in TypeScript and Python, mostly at night.</text>
+
+  <!-- Byline rule -->
+  <rect x="56" y="350" width="768" height="1" fill="#e8c5d8"/>
+
+  <!-- Byline -->
+  <text x="56" y="378" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#6b557e">FILED UNDER  <tspan fill="#1c1620">AI · TESTING · SECURITY</tspan></text>
+  <text x="824" y="378" text-anchor="end" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#6b557e">LAST COMMIT · <tspan fill="#1c1620">WUSHANGYIN/TESTTRACE</tspan></text>
+</svg>
