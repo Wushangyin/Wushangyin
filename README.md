@@ -1,92 +1,45 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img alt="Shangyin Wu — Forward Deployed Engineer, Software Engineer in Test. Below the name, one mark for every version of the TestTrace desktop client." src="./assets/hero-light.svg" width="100%">
+</picture>
 
-  <img src="./assets/hero.svg" alt="Shangyin Wu — Software Engineer focused on AI-powered software testing, automation, and security evaluation." width="100%">
-
-</div>
-
-<br>
-
-> ### Editor's note
->
-> My day-to-day sits at the intersection of two things that don't always get along — software testing, which wants to be deterministic, and large language models, which mostly aren't. Most of what I build is an attempt to make that interaction useful: agents that drive browsers, evaluators that catch silent regressions, and the occasional security probe that finds something the test suite missed. I write code in TypeScript and Python, ship Chrome extensions, and keep most of the state in PostgreSQL. Powered, in no small part, by Claude.
+<sub>Each mark is one version of the TestTrace desktop client: 872 between 17 May and 29 Oct 2026, up to 24 in one day.</sub>
 
 <br>
 
-<div align="center">
+I build software inside the team that uses it, and the tests that let it change every day without breaking their work.
 
-  <img src="./assets/marginalia.svg" alt="Stats: 2 live projects, 1.2k commits per year, 23 day streak, infinite coffee" width="100%">
+## TestTrace
 
-</div>
+The platform a third-party software testing lab runs its projects on. I am its only developer, and also one of its users. Engineers work in a desktop client where each project is an editable formal document; a Go backend and three Python services generate and parse the nine Word deliverables; an LLM assistant answers questions about a project but can read only what the person asking can read.
 
-<br>
+**Forward deployed**
 
-### The workshop — what I'm building right now
+- The lab's feedback is the spec. Changes ship as soon as they are verified, each with a one-line note written for the people using it — 2,747 notes so far.
+- A version gate on every route stops clients that fall behind, so the backend never keeps two behaviours alive.
+- The deliverables are formal Word documents with embedded OLE attachments and filled form controls, laid out the same in Word, LibreOffice and on paper.
 
-<table>
-  <tr>
-    <td valign="top" width="120">
-      <em>01</em><br>
-      <sub>CHROME EXT.<br>+ PLATFORM</sub>
-    </td>
-    <td valign="top">
-      <h4><a href="https://github.com/Wushangyin/TestTrace">TestTrace</a></h4>
-      <sub>FUNCTIONAL TESTING AUTOMATION</sub>
-      <p>A Chrome extension that records the way real people actually click through a product, paired with a platform that turns those traces into reproducible tests. Designed so QA engineers spend less time writing selectors and more time deciding what's worth testing.</p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="120">
-      <em>02</em><br>
-      <sub>PYTHON<br>SERVICE</sub>
-    </td>
-    <td valign="top">
-      <h4><a href="https://github.com/Wushangyin/EstiMate">EstiMate</a></h4>
-      <sub>SOFTWARE COST ESTIMATION</sub>
-      <p>A pricing tool for software projects — structured inputs, transparent breakdowns, defensible numbers. The kind of estimate you can hand to a client without flinching.</p>
-    </td>
-  </tr>
-</table>
+**Test engineering**
 
-<br>
+- 1,700+ Go tests, 3,500+ TypeScript tests, 1,300+ Python tests, and 90 Playwright harnesses that drive the client's real interface in Chromium.
+- No fixed sleeps. Every wait is on a concrete signal: an element, a count, a URL, an animation coming to rest.
+- An assertion that something did *not* happen first proves the page did something. Otherwise an empty screen passes.
+- A new assertion is trusted only after it has failed on purpose: a control run, a deliberate break, and a run with every API response delayed.
+- Ratchet tests hold the shape of the code — file length, untyped maps, raw SQL — so it can only get better.
 
-<div align="center">
+## Other work
 
-  <img src="./assets/colophon.svg" alt="Colophon — Set in TypeScript and Python. Pair-programs with Claude. Writes more tests than features." width="100%">
+**Golden Way Financial** · client project, US tax firm<br>
+A portal where clients upload tax documents through a link. Files are encrypted in the browser, so the server only ever holds ciphertext. Next.js and Supabase, 300+ automated tests, first version delivered in 13 working days. I also built and maintain their [website](https://www.goldenwayfinancial.com) in English, Simplified and Traditional Chinese.
 
-</div>
+**Document intake** · used on real projects<br>
+Reads a client's pile of specs, contracts, tender files and scans, then fills a long Word application form from it, including an appendix of hundreds of requirement rows. Every row points back to the section it came from.
 
-<div align="center">
+## Working with me
 
-  <img src="https://img.shields.io/badge/Python-1c1620?style=flat-square&logo=python&logoColor=b14a78&labelColor=fdf6ee" alt="Python">
-  <img src="https://img.shields.io/badge/TypeScript-1c1620?style=flat-square&logo=typescript&logoColor=b14a78&labelColor=fdf6ee" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-1c1620?style=flat-square&logo=javascript&logoColor=b14a78&labelColor=fdf6ee" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Chrome%20Ext-1c1620?style=flat-square&logo=googlechrome&logoColor=b14a78&labelColor=fdf6ee" alt="Chrome Extension">
-  <img src="https://img.shields.io/badge/PostgreSQL-1c1620?style=flat-square&logo=postgresql&logoColor=b14a78&labelColor=fdf6ee" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Claude-1c1620?style=flat-square&logo=anthropic&logoColor=b14a78&labelColor=fdf6ee" alt="Claude">
-  <img src="https://img.shields.io/badge/Software%20Testing-1c1620?style=flat-square&logo=cypress&logoColor=b14a78&labelColor=fdf6ee" alt="Software Testing">
-  <img src="https://img.shields.io/badge/Security%20Testing-1c1620?style=flat-square&logo=hackthebox&logoColor=b14a78&labelColor=fdf6ee" alt="Security Testing">
+I ask before I build, ship in steps you can check, and say early when something won't work. I use AI coding tools every day; the tests are how I know what they wrote is right.
 
-</div>
+<sub>Go · TypeScript · React · Tauri · Python · PostgreSQL · Redis · Playwright · Next.js · Supabase</sub>
 
-<br>
-
-<div align="center">
-
-  <img src="./assets/divider.svg" alt="" width="100%">
-
-</div>
-
-<div align="center">
-
-  <h3><em>Correspondence welcome.</em></h3>
-
-  <a href="mailto:shangyinwu85@gmail.com"><img src="https://img.shields.io/badge/Email-1c1620?style=flat-square&logo=gmail&logoColor=b14a78&labelColor=fdf6ee" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/shangyin-wu/"><img src="https://img.shields.io/badge/LinkedIn-1c1620?style=flat-square&logo=linkedin&logoColor=b14a78&labelColor=fdf6ee" alt="LinkedIn"></a>
-  <a href="https://x.com/"><img src="https://img.shields.io/badge/X-1c1620?style=flat-square&logo=x&logoColor=b14a78&labelColor=fdf6ee" alt="X / Twitter"></a>
-  <a href="https://github.com/Wushangyin"><img src="https://img.shields.io/badge/GitHub-1c1620?style=flat-square&logo=github&logoColor=b14a78&labelColor=fdf6ee" alt="GitHub"></a>
-
-  <br><br>
-
-  <sub><em>No. 047 · printed in pixels · revised on every push</em></sub>
-
-</div>
+[shangyinwu85@gmail.com](mailto:shangyinwu85@gmail.com) · [Upwork](https://www.upwork.com/freelancers/~0153291fff69e95c79)
